@@ -7,38 +7,52 @@ import { Trophy, RotateCcw } from "lucide-react";
 const triviaQuestions = [
   {
     id: 1,
-    question: "What year did the Chicago Cubs first arrive in Mesa for spring training?",
-    options: ["1948", "1952", "1956", "1960"],
+    question: "What year was the Cactus League founded in Arizona?",
+    options: ["1945", "1947", "1950", "1952"],
     correct: 1,
-    explanation: "The Chicago Cubs arrived in Mesa in 1952, marking the beginning of the city's long spring training tradition."
+    explanation: "The Cactus League was founded in 1947 when the Cleveland Indians and New York Giants came to Arizona for spring training."
   },
   {
     id: 2,
-    question: "Which Hall of Fame player spent significant spring training time in Mesa?",
-    options: ["Babe Ruth", "Ernie Banks", "Willie Mays", "Hank Aaron"],
-    correct: 1,
-    explanation: "Ernie Banks, Mr. Cub himself, trained extensively in Mesa during his legendary career with the Chicago Cubs."
+    question: "In what year did the Arizona Diamondbacks win their first World Series?",
+    options: ["1999", "2000", "2001", "2002"],
+    correct: 2,
+    explanation: "The Diamondbacks won the 2001 World Series against the New York Yankees in just their 4th season - the fastest for any expansion team."
   },
   {
     id: 3,
-    question: "What is the nickname of Mesa's spring training facility?",
-    options: ["The Diamond", "Sloan Park", "Cactus Field", "Desert Stadium"],
-    correct: 1,
-    explanation: "Sloan Park opened in 2014 and is now one of the premier spring training facilities in Arizona."
+    question: "Which pitcher won the World Series MVP for Arizona in 2001?",
+    options: ["Curt Schilling", "Randy Johnson", "Both Schilling and Johnson", "Matt Williams"],
+    correct: 2,
+    explanation: "Randy Johnson and Curt Schilling shared the World Series MVP award - only the fourth time co-MVPs were named in World Series history."
   },
   {
     id: 4,
-    question: "How many MLB teams currently hold spring training in Arizona?",
+    question: "How many MLB teams currently train in Arizona during spring training?",
     options: ["10", "12", "15", "18"],
     correct: 2,
-    explanation: "Arizona hosts 15 MLB teams during spring training as part of the Cactus League."
+    explanation: "Arizona's Cactus League hosts 15 MLB teams each spring, making it one of the largest spring training destinations in baseball."
   },
   {
     id: 5,
-    question: "What was the original name of spring training baseball in Arizona?",
-    options: ["Desert League", "Cactus League", "Sunshine League", "Arizona League"],
+    question: "Who hit the walk-off single to win Game 7 of the 2001 World Series for Arizona?",
+    options: ["Matt Williams", "Luis Gonzalez", "Craig Counsell", "Mark Grace"],
     correct: 1,
-    explanation: "The Cactus League has been the name since 1947, representing Arizona's spring training tradition."
+    explanation: "Luis Gonzalez hit a walk-off single off Mariano Rivera in the bottom of the 9th to give Arizona the championship."
+  },
+  {
+    id: 6,
+    question: "What is the name of the Diamondbacks' home stadium?",
+    options: ["Sun Devil Stadium", "Chase Field", "Phoenix Stadium", "Desert Diamond Arena"],
+    correct: 1,
+    explanation: "Chase Field (originally Bank One Ballpark) opened in 1998 and features a retractable roof - perfect for Arizona summers."
+  },
+  {
+    id: 7,
+    question: "Which team was the first to hold spring training in Arizona?",
+    options: ["New York Giants", "Cleveland Indians", "Chicago Cubs", "Detroit Tigers"],
+    correct: 1,
+    explanation: "The Cleveland Indians were among the first teams in Arizona, arriving in 1947 along with the New York Giants to establish the Cactus League."
   }
 ];
 
@@ -87,9 +101,9 @@ export const Trivia = () => {
       <main className="min-h-screen">
         <div className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground py-20">
           <div className="container mx-auto px-4">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Baseball Trivia</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Arizona Baseball Trivia</h1>
             <p className="text-xl opacity-95 max-w-3xl">
-              Test your knowledge of Mesa baseball history
+              Test your knowledge of Arizona baseball history
             </p>
           </div>
         </div>
@@ -195,11 +209,11 @@ export const Trivia = () => {
                 
                 <p className="text-xl text-muted-foreground mb-8">
                   {score === triviaQuestions.length
-                    ? "Perfect score! You're a Mesa baseball expert!"
+                    ? "Perfect score! You're an Arizona baseball expert!"
                     : score >= triviaQuestions.length * 0.7
-                    ? "Great job! You know your baseball history!"
+                    ? "Great job! You know your Arizona baseball history!"
                     : score >= triviaQuestions.length * 0.5
-                    ? "Good effort! Keep learning about baseball history!"
+                    ? "Good effort! Keep learning about Arizona baseball!"
                     : "Keep exploring! Visit our museum to learn more!"}
                 </p>
                 
