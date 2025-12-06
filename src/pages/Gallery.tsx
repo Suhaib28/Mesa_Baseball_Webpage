@@ -4,13 +4,16 @@ import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
+import gallery5 from "@/assets/gallery-5.jpg";
+import gallery6 from "@/assets/gallery-6.jpg";
+import galleryEdWalsh from "@/assets/gallery-ed-walsh.jpg";
 
 const galleryItems = [
   {
     id: 1,
     image: gallery1,
     title: "Cactus League Origins",
-    description: "Early spring training in Arizona when the Cleveland Indians arrived",
+    description: "Early spring training in Arizona when the Cleveland Indians arrived with legends like Satchel Paige",
     year: "1947"
   },
   {
@@ -31,8 +34,29 @@ const galleryItems = [
     id: 4,
     image: gallery4,
     title: "Spring Training Classic",
-    description: "Vintage equipment from Arizona's early baseball days",
+    description: "Vintage equipment from Arizona's early baseball days when fans brought lawn chairs to games",
     year: "1950s"
+  },
+  {
+    id: 5,
+    image: gallery5,
+    title: "Night Games Under the Stars",
+    description: "The Cactus League pioneered night spring training games in the 1960s",
+    year: "1960s"
+  },
+  {
+    id: 6,
+    image: gallery6,
+    title: "Modern Spring Training",
+    description: "Today's Cactus League draws over 2 million fans annually to Arizona",
+    year: "Present"
+  },
+  {
+    id: 7,
+    image: galleryEdWalsh,
+    title: "Ed Walsh - Chicago Cubs Legend",
+    description: "Historic photograph from Arizona's rich baseball heritage",
+    year: "Historic"
   },
 ];
 
