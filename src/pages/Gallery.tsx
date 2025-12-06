@@ -9,30 +9,30 @@ const galleryItems = [
   {
     id: 1,
     image: gallery1,
-    title: "Historic Stadium",
-    description: "Mesa's first baseball stadium, circa 1920s",
-    year: "1925"
+    title: "Cactus League Origins",
+    description: "Early spring training in Arizona when the Cleveland Indians arrived",
+    year: "1947"
   },
   {
     id: 2,
     image: gallery2,
-    title: "Championship Team",
-    description: "Local Mesa team that won the state championship",
-    year: "1948"
+    title: "Diamondbacks World Series",
+    description: "Historic moments from Arizona's championship run against the Yankees",
+    year: "2001"
   },
   {
     id: 3,
     image: gallery3,
-    title: "Vintage Memorabilia",
-    description: "Collection of historic baseball artifacts and cards",
-    year: "1930s-1950s"
+    title: "Arizona Baseball Memorabilia",
+    description: "Collection of historic artifacts from Cactus League and D-backs history",
+    year: "1947-Present"
   },
   {
     id: 4,
     image: gallery4,
-    title: "Classic Equipment",
-    description: "Well-worn glove and baseball from the golden era",
-    year: "1940s"
+    title: "Spring Training Classic",
+    description: "Vintage equipment from Arizona's early baseball days",
+    year: "1950s"
   },
 ];
 
@@ -45,7 +45,7 @@ export const Gallery = () => {
           <div className="container mx-auto px-4">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Photo Gallery</h1>
             <p className="text-xl opacity-95 max-w-3xl">
-              A visual journey through baseball history in Mesa
+              A visual journey through Arizona's baseball history
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const Gallery = () => {
             <div className="bg-muted/50 rounded-2xl p-8">
               <h2 className="text-3xl font-bold mb-4">See More in Person</h2>
               <p className="text-muted-foreground text-lg">
-                Our physical collection features hundreds of additional photographs, artifacts, and memorabilia. Visit us to explore the complete exhibition and experience baseball history up close.
+                Our physical collection features hundreds of additional photographs from the Diamondbacks, Cactus League teams, and Arizona's rich baseball heritage. Visit us to explore the complete exhibition.
               </p>
             </div>
           </div>

@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 export const Navigation = () => {
   const location = useLocation();
@@ -20,11 +21,9 @@ export const Navigation = () => {
   return (
     <nav className="sticky top-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center gap-2">
-            <h1 className="text-xl md:text-2xl font-bold text-primary">
-              Mesa Historical Baseball Museum
-            </h1>
+        <div className="flex items-center justify-between h-20">
+          <Link to="/" className="flex items-center gap-3">
+            <img src={logo} alt="Arizona Baseball Museum" className="h-14 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
