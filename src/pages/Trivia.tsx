@@ -53,6 +53,90 @@ const triviaQuestions = [
     options: ["New York Giants", "Cleveland Indians", "Chicago Cubs", "Detroit Tigers"],
     correct: 1,
     explanation: "The Cleveland Indians were among the first teams in Arizona, arriving in 1947 along with the New York Giants to establish the Cactus League."
+  },
+  {
+    id: 8,
+    question: "Which legendary Negro Leagues pitcher came to Arizona with the Cleveland Indians in 1947?",
+    options: ["Josh Gibson", "Satchel Paige", "Cool Papa Bell", "Buck Leonard"],
+    correct: 1,
+    explanation: "Satchel Paige came to Arizona with the Cleveland Indians in 1947, making history as one of the first African American players to train in the state."
+  },
+  {
+    id: 9,
+    question: "In 1956, which east-coast team became one of the first to head west for spring training in Scottsdale?",
+    options: ["Boston Red Sox", "New York Yankees", "Baltimore Orioles", "Philadelphia Phillies"],
+    correct: 2,
+    explanation: "The Baltimore Orioles trained in Scottsdale in 1956, making them one of the first east-coast teams to head west for spring training."
+  },
+  {
+    id: 10,
+    question: "Hohokam Park in Mesa once set the largest single-game crowd in Cactus League history during the 1980s. Approximately how many fans attended?",
+    options: ["8,000+", "10,000+", "12,000+", "15,000+"],
+    correct: 2,
+    explanation: "Hohokam Park in Mesa once hosted 12,000+ fans, the largest single-game crowd in Cactus League history during the 1980s."
+  },
+  {
+    id: 11,
+    question: "In the 1960s, Arizona boosters launched campaigns to do what?",
+    options: ["Build new stadiums", "Save the Cactus League", "Bring the World Series to Arizona", "Start a new MLB team"],
+    correct: 1,
+    explanation: "The Cactus League nearly folded in the 1960s when teams considered returning to Florida. Arizona boosters launched 'Save the Cactus League' campaigns to keep teams in the desert."
+  },
+  {
+    id: 12,
+    question: "Where did the Milwaukee Brewers hold their very first spring training as 'Brewers' in 1970?",
+    options: ["Tempe, Arizona", "Mesa, Arizona", "Sun City, Arizona", "Tucson, Arizona"],
+    correct: 2,
+    explanation: "The Milwaukee Brewers were originally the Seattle Pilots, and their very first spring training as 'Brewers' happened in Sun City, Arizona, in 1970."
+  },
+  {
+    id: 13,
+    question: "What did fans once bring to early Arizona ballparks due to limited seating options?",
+    options: ["Blankets", "Lawn chairs", "Pillows", "Inflatable seats"],
+    correct: 1,
+    explanation: "Fans once brought lawn chairs to games because many early ballparks in Arizona had only basic bleachers or grass berms for seating."
+  },
+  {
+    id: 14,
+    question: "The Cactus League was among the first to experiment with what type of spring training games in the 1960s?",
+    options: ["Doubleheader games", "Night games", "Televised games", "Interleague games"],
+    correct: 1,
+    explanation: "The Cactus League was among the first to experiment with night spring training games, giving fans a chance to watch baseball under the desert stars."
+  },
+  {
+    id: 15,
+    question: "In 1964, when the Beatles played their first Arizona concert at the old Phoenix Coliseum, which team was also in town for spring training?",
+    options: ["Chicago Cubs", "San Francisco Giants", "Los Angeles Dodgers", "New York Yankees"],
+    correct: 1,
+    explanation: "When the Beatles played their first Arizona concert at the old Phoenix Coliseum in 1964, the San Francisco Giants were also in town for spring training."
+  },
+  {
+    id: 16,
+    question: "In the 1970s, the Oakland A's shared their Scottsdale training field with what unusual attraction?",
+    options: ["A rodeo", "A Mustang car show", "A hot air balloon festival", "A motorcycle rally"],
+    correct: 1,
+    explanation: "The Oakland A's once shared their Scottsdale training field with a local Mustang car show — fans could see both classic cars and big-league players in one place."
+  },
+  {
+    id: 17,
+    question: "In the 1980s, which team's media began broadcasting daily from Mesa, making Cactus League games a spring tradition for fans back home?",
+    options: ["New York Yankees", "Boston Red Sox", "Chicago Cubs", "St. Louis Cardinals"],
+    correct: 2,
+    explanation: "Chicago media began broadcasting daily from Mesa in the 1980s, making Cactus League games a spring tradition for Cubs fans back home."
+  },
+  {
+    id: 18,
+    question: "Where did the Arizona Diamondbacks hold their very first spring training before their inaugural 1998 MLB season?",
+    options: ["Scottsdale", "Mesa", "Tucson", "Phoenix"],
+    correct: 2,
+    explanation: "The Arizona Diamondbacks held their very first spring training in Tucson before their inaugural MLB season in 1998."
+  },
+  {
+    id: 19,
+    question: "Which Hall of Famers were known for returning as guest instructors at Cactus League camps?",
+    options: ["Babe Ruth and Lou Gehrig", "Bob Feller, Willie McCovey, and Billy Williams", "Jackie Robinson and Hank Aaron", "Mickey Mantle and Joe DiMaggio"],
+    correct: 1,
+    explanation: "Hall of Famers like Bob Feller, Willie McCovey, and Billy Williams often returned as guest instructors at Cactus League camps, delighting fans with surprise appearances."
   }
 ];
 
