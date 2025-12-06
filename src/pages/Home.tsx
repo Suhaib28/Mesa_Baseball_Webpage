@@ -124,31 +124,115 @@ export const Home = () => {
           </div>
         </section>
 
-        {/* Arizona Baseball Highlights */}
+        {/* Historical Timeline */}
         <section className="py-20 container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Arizona Baseball Highlights</h2>
+          <h2 className="text-4xl font-bold text-center mb-4">Arizona Baseball Timeline</h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
+            Key moments that shaped Arizona's baseball legacy
+          </p>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="bg-card border border-border rounded-xl p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <Star className="text-secondary" size={28} />
-                <h3 className="text-2xl font-bold">Arizona Diamondbacks</h3>
+          <div className="max-w-4xl mx-auto space-y-6">
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1947</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Cactus League Founded</h3>
+                <p className="text-muted-foreground">Cleveland Indians and NY Giants arrive. Satchel Paige becomes one of the first African American players to train in Arizona.</p>
               </div>
-              <p className="text-muted-foreground mb-4">
-                Arizona's MLB team since 1998, the Diamondbacks won the World Series in just their 4th season - the fastest expansion team to win a championship.
-              </p>
-              <p className="text-sm text-muted-foreground">2001 World Series Champions</p>
             </div>
-            
-            <div className="bg-card border border-border rounded-xl p-8">
-              <div className="flex items-center gap-3 mb-4">
-                <Users className="text-primary" size={28} />
-                <h3 className="text-2xl font-bold">Spring Training Capital</h3>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1948</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Breaking Barriers</h3>
+                <p className="text-muted-foreground">Larry Doby becomes the first African American to play in Arizona's Cactus League.</p>
               </div>
-              <p className="text-muted-foreground mb-4">
-                The Cactus League draws more than 2 million fans each February and March, generating over $600 million for Arizona's economy annually.
-              </p>
-              <p className="text-sm text-muted-foreground">15 MLB Teams • 10 Stadiums</p>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1956</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">East Coast Arrives</h3>
+                <p className="text-muted-foreground">Baltimore Orioles train in Scottsdale, becoming one of the first east-coast teams to head west.</p>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1960s</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Night Games & Save the League</h3>
+                <p className="text-muted-foreground">Cactus League pioneers night spring training games. Arizona boosters launch "Save the Cactus League" campaigns when teams consider returning to Florida.</p>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1964</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Beatles Meet Baseball</h3>
+                <p className="text-muted-foreground">When the Beatles play their first Arizona concert at Phoenix Coliseum, the San Francisco Giants are in town for spring training.</p>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1970</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Brewers Born in Arizona</h3>
+                <p className="text-muted-foreground">The Milwaukee Brewers (formerly Seattle Pilots) hold their very first spring training as "Brewers" in Sun City, Arizona.</p>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1980s</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Record Crowds & National Media</h3>
+                <p className="text-muted-foreground">Hohokam Park hosts 12,000+ fans. Chicago media broadcasts daily from Mesa, making Cactus League games a spring tradition for Cubs fans.</p>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">1998</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">Diamondbacks Debut</h3>
+                <p className="text-muted-foreground">Arizona Diamondbacks hold their first spring training in Tucson before their inaugural MLB season.</p>
+              </div>
+            </div>
+            <div className="bg-card border border-border rounded-xl p-6 flex gap-6">
+              <div className="text-2xl font-bold text-secondary min-w-[80px]">2001</div>
+              <div>
+                <h3 className="font-bold text-lg mb-1">World Champions</h3>
+                <p className="text-muted-foreground">Diamondbacks win the World Series in just their 4th season - the fastest expansion team to win a championship.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Arizona Baseball Highlights */}
+        <section className="py-20 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <h2 className="text-4xl font-bold text-center mb-12">Arizona Baseball Highlights</h2>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              <div className="bg-card border border-border rounded-xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <Star className="text-secondary" size={28} />
+                  <h3 className="text-xl font-bold">Arizona Diamondbacks</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">
+                  Arizona's MLB team since 1998, the D-backs won the World Series in just their 4th season.
+                </p>
+              </div>
+              
+              <div className="bg-card border border-border rounded-xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <Users className="text-primary" size={28} />
+                  <h3 className="text-xl font-bold">15 MLB Teams</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">
+                  The Cactus League draws over 2 million fans each spring, generating $600M+ for Arizona's economy.
+                </p>
+              </div>
+
+              <div className="bg-card border border-border rounded-xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <Trophy className="text-secondary" size={28} />
+                  <h3 className="text-xl font-bold">Hall of Fame Legends</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">
+                  Bob Feller, Willie McCovey, Billy Williams, and more returned as guest instructors at Cactus League camps.
+                </p>
+              </div>
             </div>
           </div>
         </section>

@@ -12,6 +12,7 @@ export const Navigation = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Gallery", path: "/gallery" },
+    { name: "Hall of Fame", path: "/hall-of-fame" },
     { name: "News", path: "/news" },
     { name: "Trivia", path: "/trivia" },
   ];

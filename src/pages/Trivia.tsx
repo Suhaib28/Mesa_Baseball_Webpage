@@ -7,136 +7,143 @@ import { Trophy, RotateCcw } from "lucide-react";
 const triviaQuestions = [
   {
     id: 1,
-    question: "What year was the Cactus League founded in Arizona?",
-    options: ["1945", "1947", "1950", "1952"],
-    correct: 1,
-    explanation: "The Cactus League was founded in 1947 when the Cleveland Indians and New York Giants came to Arizona for spring training."
+    question: "Which city hosted the very first Cactus League spring training game in 1947?",
+    options: ["Phoenix", "Glendale", "Tucson", "Peoria"],
+    correct: 2,
+    explanation: "Tucson hosted the first game when the Cleveland Indians faced the New York Giants in 1947."
   },
   {
     id: 2,
-    question: "In what year did the Arizona Diamondbacks win their first World Series?",
-    options: ["1999", "2000", "2001", "2002"],
-    correct: 2,
-    explanation: "The Diamondbacks won the 2001 World Series against the New York Yankees in just their 4th season - the fastest for any expansion team."
+    question: "Which Hall of Famer and owner of the Cleveland Indians was instrumental in bringing spring training to Arizona?",
+    options: ["Horace Stoneham", "Del Webb", "Phil Wrigley", "Bill Veeck"],
+    correct: 3,
+    explanation: "Bill Veeck moved the Indians to Tucson in 1947, co-founding the Cactus League."
   },
   {
     id: 3,
-    question: "Which pitcher won the World Series MVP for Arizona in 2001?",
-    options: ["Curt Schilling", "Randy Johnson", "Both Schilling and Johnson", "Matt Williams"],
+    question: "Before Hohokam Stadium, which ballpark was home to the Chicago Cubs during spring training?",
+    options: ["Sloan Park", "Phoenix Municipal Stadium", "Rendezvous Park", "Scottsdale Stadium"],
     correct: 2,
-    explanation: "Randy Johnson and Curt Schilling shared the World Series MVP award - only the fourth time co-MVPs were named in World Series history."
+    explanation: "Rendezvous Park in Mesa was the Cubs' spring home before Hohokam Stadium."
   },
   {
     id: 4,
-    question: "How many MLB teams currently train in Arizona during spring training?",
-    options: ["10", "12", "15", "18"],
-    correct: 2,
-    explanation: "Arizona's Cactus League hosts 15 MLB teams each spring, making it one of the largest spring training destinations in baseball."
+    question: "Which Arizona Cactus League ballpark is the largest in terms of seating capacity?",
+    options: ["Sloan Park", "Scottsdale Stadium", "Hohokam Stadium", "Camelback Ranch"],
+    correct: 0,
+    explanation: "Sloan Park has 15,000 seats, making it the largest Cactus League ballpark."
   },
   {
     id: 5,
-    question: "Who hit the walk-off single to win Game 7 of the 2001 World Series for Arizona?",
-    options: ["Matt Williams", "Luis Gonzalez", "Craig Counsell", "Mark Grace"],
-    correct: 1,
-    explanation: "Luis Gonzalez hit a walk-off single off Mariano Rivera in the bottom of the 9th to give Arizona the championship."
+    question: "Which famous Cubs broadcaster, who coined the phrase 'Holy Cow!', was a fixture of spring training in Mesa?",
+    options: ["Vin Scully", "Bob Uecker", "Harry Caray", "Pat Hughes"],
+    correct: 2,
+    explanation: "Harry Caray was beloved by Cubs fans and famous for his 'Holy Cow!' catchphrase."
   },
   {
     id: 6,
-    question: "What is the name of the Diamondbacks' home stadium?",
-    options: ["Sun Devil Stadium", "Chase Field", "Phoenix Stadium", "Desert Diamond Arena"],
-    correct: 1,
-    explanation: "Chase Field (originally Bank One Ballpark) opened in 1998 and features a retractable roof - perfect for Arizona summers."
+    question: "Which team won the 2001 World Series?",
+    options: ["Arizona Diamondbacks", "Boston Red Sox", "Los Angeles Dodgers", "New York Yankees"],
+    correct: 0,
+    explanation: "The Diamondbacks won the 2001 World Series in just their 4th season."
   },
   {
     id: 7,
-    question: "Which team was the first to hold spring training in Arizona?",
-    options: ["New York Giants", "Cleveland Indians", "Chicago Cubs", "Detroit Tigers"],
-    correct: 1,
-    explanation: "The Cleveland Indians were among the first teams in Arizona, arriving in 1947 along with the New York Giants to establish the Cactus League."
-  },
-  {
-    id: 8,
     question: "Which legendary Negro Leagues pitcher came to Arizona with the Cleveland Indians in 1947?",
     options: ["Josh Gibson", "Satchel Paige", "Cool Papa Bell", "Buck Leonard"],
     correct: 1,
     explanation: "Satchel Paige came to Arizona with the Cleveland Indians in 1947, making history as one of the first African American players to train in the state."
   },
   {
-    id: 9,
+    id: 8,
     question: "In 1956, which east-coast team became one of the first to head west for spring training in Scottsdale?",
     options: ["Boston Red Sox", "New York Yankees", "Baltimore Orioles", "Philadelphia Phillies"],
     correct: 2,
     explanation: "The Baltimore Orioles trained in Scottsdale in 1956, making them one of the first east-coast teams to head west for spring training."
   },
   {
-    id: 10,
+    id: 9,
     question: "Hohokam Park in Mesa once set the largest single-game crowd in Cactus League history during the 1980s. Approximately how many fans attended?",
     options: ["8,000+", "10,000+", "12,000+", "15,000+"],
     correct: 2,
     explanation: "Hohokam Park in Mesa once hosted 12,000+ fans, the largest single-game crowd in Cactus League history during the 1980s."
   },
   {
+    id: 10,
+    question: "Which future Hall of Famer played spring training in Scottsdale with the San Francisco Giants before hitting his record 756th career home run?",
+    options: ["Barry Bonds", "Ken Griffey Jr.", "Ernie Banks", "Willie Mays"],
+    correct: 0,
+    explanation: "Barry Bonds trained in Scottsdale with the Giants before breaking Hank Aaron's all-time home run record."
+  },
+  {
     id: 11,
-    question: "In the 1960s, Arizona boosters launched campaigns to do what?",
-    options: ["Build new stadiums", "Save the Cactus League", "Bring the World Series to Arizona", "Start a new MLB team"],
-    correct: 1,
-    explanation: "The Cactus League nearly folded in the 1960s when teams considered returning to Florida. Arizona boosters launched 'Save the Cactus League' campaigns to keep teams in the desert."
+    question: "How many Cy Young Awards did Randy Johnson win while pitching for the Arizona Diamondbacks?",
+    options: ["2", "3", "4", "5"],
+    correct: 2,
+    explanation: "Randy Johnson won 4 consecutive Cy Young Awards (1999-2002) with the Diamondbacks."
   },
   {
     id: 12,
-    question: "Where did the Milwaukee Brewers hold their very first spring training as 'Brewers' in 1970?",
-    options: ["Tempe, Arizona", "Mesa, Arizona", "Sun City, Arizona", "Tucson, Arizona"],
-    correct: 2,
-    explanation: "The Milwaukee Brewers were originally the Seattle Pilots, and their very first spring training as 'Brewers' happened in Sun City, Arizona, in 1970."
+    question: "Before joining the Dodgers, Shohei Ohtani played six seasons in MLB with which team?",
+    options: ["Los Angeles Dodgers", "Los Angeles Angels", "Seattle Mariners", "San Diego Padres"],
+    correct: 1,
+    explanation: "Ohtani played for the Los Angeles Angels from 2018-2023 before joining the Dodgers."
   },
   {
     id: 13,
-    question: "What did fans once bring to early Arizona ballparks due to limited seating options?",
-    options: ["Blankets", "Lawn chairs", "Pillows", "Inflatable seats"],
-    correct: 1,
-    explanation: "Fans once brought lawn chairs to games because many early ballparks in Arizona had only basic bleachers or grass berms for seating."
+    question: "What was the first song ever played on an organ at a baseball game in 1941 at Wrigley Field?",
+    options: ["Take Me Out to the Ball Game", "Happy Birthday", "The Star-Spangled Banner", "Beer Barrel Polka"],
+    correct: 2,
+    explanation: "The Star-Spangled Banner was the first song played on an organ at a baseball game in 1941."
   },
   {
     id: 14,
-    question: "The Cactus League was among the first to experiment with what type of spring training games in the 1960s?",
-    options: ["Doubleheader games", "Night games", "Televised games", "Interleague games"],
-    correct: 1,
-    explanation: "The Cactus League was among the first to experiment with night spring training games, giving fans a chance to watch baseball under the desert stars."
+    question: "Before settling on the name 'Diamondbacks,' the Arizona franchise considered several other team names. Which of the following was one of the finalists?",
+    options: ["Arizona Scorpions", "Arizona Coyotes", "Arizona Roadrunners", "Arizona Jackrabbits"],
+    correct: 0,
+    explanation: "Arizona Scorpions was one of the finalist names before Diamondbacks was chosen."
   },
   {
     id: 15,
-    question: "In 1964, when the Beatles played their first Arizona concert at the old Phoenix Coliseum, which team was also in town for spring training?",
-    options: ["Chicago Cubs", "San Francisco Giants", "Los Angeles Dodgers", "New York Yankees"],
-    correct: 1,
-    explanation: "When the Beatles played their first Arizona concert at the old Phoenix Coliseum in 1964, the San Francisco Giants were also in town for spring training."
+    question: "Where did the Milwaukee Brewers hold their very first spring training as 'Brewers' in 1970?",
+    options: ["Tempe, Arizona", "Mesa, Arizona", "Sun City, Arizona", "Tucson, Arizona"],
+    correct: 2,
+    explanation: "The Milwaukee Brewers (formerly Seattle Pilots) held their first spring training as 'Brewers' in Sun City, Arizona, in 1970."
   },
   {
     id: 16,
-    question: "In the 1970s, the Oakland A's shared their Scottsdale training field with what unusual attraction?",
-    options: ["A rodeo", "A Mustang car show", "A hot air balloon festival", "A motorcycle rally"],
+    question: "In the 1960s, Arizona boosters launched campaigns to do what?",
+    options: ["Build new stadiums", "Save the Cactus League", "Bring the World Series to Arizona", "Start a new MLB team"],
     correct: 1,
-    explanation: "The Oakland A's once shared their Scottsdale training field with a local Mustang car show — fans could see both classic cars and big-league players in one place."
+    explanation: "The Cactus League nearly folded when teams considered returning to Florida. Arizona boosters launched 'Save the Cactus League' campaigns."
   },
   {
     id: 17,
-    question: "In the 1980s, which team's media began broadcasting daily from Mesa, making Cactus League games a spring tradition for fans back home?",
-    options: ["New York Yankees", "Boston Red Sox", "Chicago Cubs", "St. Louis Cardinals"],
-    correct: 2,
-    explanation: "Chicago media began broadcasting daily from Mesa in the 1980s, making Cactus League games a spring tradition for Cubs fans back home."
+    question: "In 1964, when the Beatles played their first Arizona concert at the old Phoenix Coliseum, which team was also in town for spring training?",
+    options: ["Chicago Cubs", "San Francisco Giants", "Los Angeles Dodgers", "New York Yankees"],
+    correct: 1,
+    explanation: "The San Francisco Giants were in town for spring training when the Beatles played their first Arizona concert."
   },
   {
     id: 18,
-    question: "Where did the Arizona Diamondbacks hold their very first spring training before their inaugural 1998 MLB season?",
-    options: ["Scottsdale", "Mesa", "Tucson", "Phoenix"],
-    correct: 2,
-    explanation: "The Arizona Diamondbacks held their very first spring training in Tucson before their inaugural MLB season in 1998."
+    question: "Which pitcher holds the record for the most no-hitters?",
+    options: ["Sandy Koufax", "Nolan Ryan", "Cy Young", "Randy Johnson"],
+    correct: 1,
+    explanation: "Nolan Ryan holds the record with 7 career no-hitters."
   },
   {
     id: 19,
-    question: "Which Hall of Famers were known for returning as guest instructors at Cactus League camps?",
-    options: ["Babe Ruth and Lou Gehrig", "Bob Feller, Willie McCovey, and Billy Williams", "Jackie Robinson and Hank Aaron", "Mickey Mantle and Joe DiMaggio"],
+    question: "Who was the first player to reach 400 home runs and 400 stolen bases?",
+    options: ["Willie Mays", "Barry Bonds", "Alex Rodriguez", "Ken Griffey Jr."],
     correct: 1,
-    explanation: "Hall of Famers like Bob Feller, Willie McCovey, and Billy Williams often returned as guest instructors at Cactus League camps, delighting fans with surprise appearances."
+    explanation: "Barry Bonds was the first player to achieve the 400-400 milestone."
+  },
+  {
+    id: 20,
+    question: "Where did the Arizona Diamondbacks hold their very first spring training before their inaugural 1998 MLB season?",
+    options: ["Scottsdale", "Mesa", "Tucson", "Phoenix"],
+    correct: 2,
+    explanation: "The Arizona Diamondbacks held their first spring training in Tucson before their inaugural season."
   }
 ];
 
